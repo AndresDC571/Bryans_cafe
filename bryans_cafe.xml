@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="bryans_cafe.css"?>
+
+<!DOCTYPE Bryans_Cafe [
+  <!ELEMENT Bryans_Cafe (Products)>
+  <!ELEMENT Products (Product+)>
+  <!ELEMENT Product (name, price, description)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT price (#PCDATA)>
+  <!ELEMENT description (#PCDATA)>
+]>
+
+<Bryans_Cafe>
+    <Products>
+        <Product>
+            <name>Beetroot and feta salad </name>
+            <price>$15.00</price>
+            <description>Suitable for vegetarians, made with fresh beetroot</description>
+        </Product>
+        
+        <Product>
+            <name>Sourdough Rye Sandwich </name>
+            <price>$18.00</price>
+            <description>Cheese and salad sandwich made with organic, sourdough rye bread</description>
+        </Product>
+        
+        <Product>
+            <name>Spinach Pie and Salad  </name>
+            <price>$20.00</price>
+            <description>Tasty pie with salad.</description>
+        </Product>
+        
+        <Product>
+            <name>Feta pancakes with salad</name>
+            <price>  $19.50</price>
+            <description>Tasty pancake filled with feta and salad.</description>
+        </Product>
+        
+    </Products>
+</Bryans_Cafe>

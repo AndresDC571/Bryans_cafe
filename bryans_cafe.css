@@ -1,0 +1,55 @@
+Bryans_Cafe {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    display: block;
+}
+
+Products {
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: block;
+}
+
+Products {
+    margin: 10px 0;
+    padding: 10px;
+    display: block;
+}
+
+Product {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    display: block;
+}
+
+Product {
+    background-color: #e6f7ff;
+}
+
+
+name, price, description {
+    display: block;
+    padding: 5px;
+    margin: 2px 0;
+}
+
+name {
+    font-weight: bold;
+    color: #1890ff;
+}
+
+price {
+    color: #52c41a;
+    font-style: italic;
+}
+
+description {
+    color: #722ed1;
+}
